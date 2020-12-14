@@ -1,0 +1,107 @@
+body, ul , li{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background: #483a69;
+}
+
+#logo{
+    text-decoration: none;
+    color: #483a69;
+    font-size: 40px;
+    font-family: Fantasy;
+    padding-left: 30px;
+
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    color:rgb(194, 194, 194);
+    background: #ffffff;
+    border-bottom: 2px solid rgb(46, 66, 121);
+    
+    
+    
+}
+
+.menu{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.menu li a{
+    display:block;
+    padding: 20px;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #352a4e;
+    background: white;
+
+}
+
+
+/* Projetos */
+
+img{
+    max-width: 100%;
+    display:block;
+}
+
+h1, .flex p{
+    text-align: center;
+    margin-top: 40px;
+    color:white;
+}
+
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.flex > div{
+    flex: 1 1 400px;
+    margin: 10px;
+}
+
+/*CSS GRID 1*/
+
+.PORRA{
+    padding:50px 0 50px 0 ;
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin:0 auto;
+
+}
+
+.PORRA div{
+    padding: 10px;
+    flex: 1 1 400px;
+    background:white;
+    width: 900px ;
+    
+    height:300px ;
+}
+.PORRA h1 , .PORRA p{
+    text-align: center;
+    color:#352a4e;
+}
+footer{
+    display:flex;
+    padding:50px 0 0;
+    justify-content: center;
+    background: white;
+}
+
